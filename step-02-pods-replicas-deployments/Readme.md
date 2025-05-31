@@ -209,3 +209,4 @@ kubectl delete all --all
 * Always use **probes** in real applications for better resilience.
 * Use `kubectl rollout` commands to manage deployment lifecycle safely.
 
+> Move on to [Step 03: ConfigMaps & Secrets](../step-03-services-networking)
