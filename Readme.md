@@ -103,5 +103,5 @@ If you're working in a team or sharing this with others:
 
 * Fork the repo
 * Use `README.md` in each folder as your documentation
-* Add screenshots, diagrams, or architecture notes
+* Add screenshots, diagrams, or architecture notes.
 
