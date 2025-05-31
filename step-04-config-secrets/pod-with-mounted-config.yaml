@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-pod-volume
+spec:
+  containers:
+    - name: app
+      image: busybox
+      command: ["sh", "-c", "ls /etc/config; cat /etc/config/APP_ENV; cat /etc/secret/DB_PASSWORD; sleep 3600"]
+      volumeMounts:
+        - name: config-volume
+          mountPath: /etc/config
+        - name: secret-volume
+          mountPath: /etc/secret
+  volumes:
+    - name: config-volume
+      configMap:
+        name: app-config
+    - name: secret-volume
+      secret:
+        secretName: app-secret

@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  APP_ENV: "production"
+  APP_NAME: "my-k8s-app"
+  WELCOME_MSG: "Welcome to the Kubernetes Config Demo"
