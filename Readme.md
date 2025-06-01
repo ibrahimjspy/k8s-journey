@@ -1,5 +1,5 @@
 
-
+![Cover Image](./public/cover.png)
 ## Kubernetes Mastery: 20-Step Practical Program
 
 Welcome to the **Kubernetes Mastery Journey** — a **20-step structured program** designed to take you from beginner to advanced Kubernetes engineer through theory, hands-on practice, and real-world examples.
